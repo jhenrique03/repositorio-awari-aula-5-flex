@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  /* border: 1px solid red; */
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+.pai {
+  padding: 16px;
+  width: 640px;
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center; /* Centraliza horizontalmente os itens dentro da div pai */
+  margin: auto auto; /* Centraliza horizontalmente a propria div pai*/
+}
+
+.filho-1-imagem img {
+  /* Observe que precisa ter selecionado a classe e a tag img para imagem nao extrapolar div! */
+  display: block;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.filho-2-titulo {
+}
+
+.filho-3-paragrafo {
+}
+
+.filho-4-outra-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
